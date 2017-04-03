@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Condition</title>
+    <script>
+        var a=confirm("Accept the first value as true?");
+        if (a) {
+            document.write("The first value is true.<br/>");
+        }
+        else {
+            document.write("The first value is false.<br/>");
+        }
+        var b=confirm("Accept the second value as true?");
+        if (b) {
+            document.write("The second value is true.<br/>");
+        }
+        else {
+            document.write("The second value is false.<br/>");
+        }
+        if (a==true&&b==true) {
+            document.write("Both values are true.<br>");
+        }
+        else if (a==true||b==true) {
+            document.write("One of the values is true.<br/>")
+        }
+        else {
+            document.write("None of the values is true.<br/>")
+        }
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
